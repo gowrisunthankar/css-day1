@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <!-- Difference between flex row and column -->
+  The Difference between Flex row and Flex Column is tht by using Flex-direction:row we can align the items in horizontal direction by using flex-column we can align the items in vertical direction
+   Note: The Flex-direction Property must be specify in parent Div 
+
+   
+<!-- Explain inline , internal and external stylesheet -->
+Inline CSS: Requires the style attribute placed inside an HTML element.
+<element style="CSS property: value"></element>
+
+Internal CSS: Requires the <style> element placed inside the head section of an HTML file.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+selector {
+CSS property: value;
+}
+</style>
+</head>
+
+External CSS: Requires the <link> element placed inside the head section of an HTML file.
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="mystyle.css">
+</head>
+<body>
+<div>
+<h1>External CSS Example</h1>
+<p>In the external stylesheet, the div is styled to have a background color, text color, border, and padding.</p>
+</div>
+</body>
+</html> 
+
+style.css
+
+div {
+background-color: #EAF0F6;
+color: #33475B;
+border: 3px solid #00A4BD;
+padding: 5px;
+}
+
+  <!-- Justify-content allows you to do what?  -->
+The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.
+ex:justify-content: center;
+
+ <!-- Difference between absolute and relative positioning  -->
+position: relative places an element relative to its current position without changing the layout around it.
+position: absolute places an element relative to its parent’s position and changing the layout around it.
+
+<!-- What is grid-template-columns used for? --> 
+The grid-template-columns property specifies the number (and the widths) of columns in a grid layout. 
+The values are a space separated list, where each value specifies the size of the respective column. 
+
+<!-- What is the z-index in CSS? --> 
+The z-index property specifies the stack order of an element. 
+An element with greater stack order is always in front of an element with a lower stack order. 
+
+<!-- What is the difference between padding and margin? --> 
+Padding Padding is a CSS property that defines the space between an element content and its border (if it has a border). 
+Margin Margin is a CSS property that defines the space of outside of an element to its next outside element. 
+The difference between margin and padding is that while padding deals with the inner space, margin deals with the outer space to the next outer element. 
+Note : If an element does not have a border around it, then adding padding has no effect at all on that element, because there is no border to give space from. 
+If an element does not have a border, then margin defines the space from the element content to the next outer element. 
+
+
+
+
+</body>
+</html>
